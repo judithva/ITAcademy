@@ -1,43 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- tipo de codificación -->
     <meta charset="UTF-8">
+    <!-- Título de la web  -->
     <title>Mi página de HTML & CSS </title>
+    <!-- CDN de google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <!-- CDN de fontawesome -->
+    <script src="https://kit.fontawesome.com/e0bff9cf18.js" crossorigin="anonymous"></script>
+    <!-- CSS  de la web -->
     <link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<!-- Definimos el header donde irá: logo y el menú de redes sociales -->
 <header>
     <div class="cabecera">
-        <div class="logo">
-            <a href="#"></a>
+        <div>
+            <a href="#"><img src="images/logo.png" class="logo"></a>
         </div>
         <div></div>
         <div class="rs">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+            <div class="circle"><a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram fa"></i></a></div>
+            <div class="circle"><a href="https://es.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa"></i></a></div>
+            <div class="circle"><a href="https://web.telegram.org/z/" target="_blank"><i class="fas fa-paper-plane fa"></i></a></div>
         </div>
     </div>
 </header>
+<!-- Definimos la barra de menú con diferentes enlaces -->
 <nav>
     <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
     </ul>
 </nav>
+<!-- Definimos el contenido de la web -->
 <div class="container">
-    <div class="col1"></div>
-    <div class="col2"></div>
-    <div class="col3"></div>
+    <div class="col1">
+        <img src="images/1.jpg" class="img">
+        <p>
+            <span>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour...
+            </span>
+            <a href="#" class="">acceder</a>
+        </p>
+    </div>
+    <div class="col2">
+        <img src="images/2.jpg" class="img">
+        <p>
+            <span>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            </span>
+            <a href="#" class="">acceder</a>
+        </p>
+    </div>
+    <div class="col3">
+        <img src="images/3.jpg" class="img">
+        <p>
+            <span>
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested
+             </span>
+            <a href="#" class="">acceder</a>
+        </p>
+    </div>
 </div>
 <main>
-    <aside class="aside1"></aside>
-    <article></article>
-    <aside class="aside2"></aside>
+    <section>
+        <article class="lateral1">
+            <h3>Lorem ipsum</h3>
+            <img src="images/4.jpg" alt="Lorem ipsum">
+            <p class="filera">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin lacinia tellus, vitae convallis ligula auctor in. Phasellus velit nulla, vehicula quis orci nec, molestie varius sapien. Cras venenatis aliquet eros vitae euismod. Integer posuere nisl et sodales hendrerit. Praesent imperdiet turpis at nibh fermentum, in fringilla lacus dignissim. Curabitur scelerisque sem odio, et vestibulum tellus feugiat sed. Phasellus quis quam sit amet dolor mattis 	laoreet nec in quam. Vivamus sapien felis, tristique at dictum quis, pulvinar id dolor. Duis id bibendum nulla.<br><a href="#">Ver más</a></p>
+        </article>
+        <article class="article">
+            <h3>Lorem ipsum</h3>
+            <img src="images/5.jpg" alt="Lorem ipsum">
+            <p class="filera">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin lacinia tellus, vitae convallis ligula auctor in. Phasellus velit nulla, vehicula quis orci nec, molestie varius sapien. Cras venenatis aliquet eros vitae euismod. Integer posuere nisl et sodales hendrerit. Praesent imperdiet turpis at nibh fermentum, in fringilla lacus dignissim. Curabitur scelerisque sem odio, et vestibulum tellus feugiat sed. Phasellus quis quam sit amet dolor mattis 	laoreet nec in quam. Vivamus sapien felis, tristique at dictum quis, pulvinar id dolor. Duis id bibendum nulla. Nullam id porta enim. Quisque dignissim hendrerit auctor. Proin nec tincidunt lectus, ut maximus orci.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin lacinia tellus, vitae convallis ligula auctor in. Phasellus velit nulla, vehicula quis orci nec, molestie varius sapien. Cras venenatis aliquet eros vitae euismod. Integer posuere nisl et sodales hendrerit. Praesent imperdiet turpis at nibh fermentum, in fringilla lacus dignissim. Curabitur scelerisque sem odio, et vestibulum tellus feugiat sed. Phasellus quis quam sit amet dolor mattis 	laoreet nec in quam. Vivamus sapien felis, tristique at dictum quis, pulvinar id dolor. Duis id bibendum nulla. Nullam id porta enim. Quisque dignissim hendrerit auctor. Proin nec tincidunt lectus, ut maximus orci.<br><a href="#">Ver más</a></p>
+        </article>
+        <article class="lateral2">
+            <h3>Lorem ipsum</h3>
+            <img src="images/6.jpg" alt="Lorem ipsum">
+            <p class="filera">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin lacinia tellus, vitae convallis ligula auctor in. Phasellus velit nulla, vehicula quis orci nec, molestie varius sapien. Cras venenatis aliquet eros vitae euismod. Integer posuere nisl et sodales hendrerit. Praesent imperdiet turpis at nibh fermentum, in fringilla lacus dignissim. Curabitur scelerisque sem odio, et vestibulum tellus feugiat sed. Phasellus quis quam sit amet dolor mattis 	laoreet nec in quam. Vivamus sapien felis, tristique at dictum quis, pulvinar id dolor. Duis id bibendum nulla.<br><a href="#">Ver más</a></p>
+        </article>
+    </section>
 </main>
-<footer></footer>
+<!-- Definimos el footer donde irá: el copyright y datos del autor -->
+<footer>
+    <span>
+        Coyright © 2021 - <a href="https://github.com/judithva" target="_blank" class="io"> @judithva </a>
+    </span>
+</footer>
 </body>
 </html>
